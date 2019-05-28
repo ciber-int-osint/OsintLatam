@@ -1,0 +1,4 @@
+.sonarlint
+/src/front/js/libs/d3.v3.js
+/src/front/table.html
+.docker-compose
