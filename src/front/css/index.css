@@ -1,0 +1,71 @@
+body {
+    background-color: #ffffff;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica;
+  }
+table, th, td{
+    border: 1px solid black;
+}
+  #ref{
+    text-align: center;
+  } 
+  #org {
+    margin: 0 auto;
+    position: relative;
+  }
+  #mm {
+    position: relative;
+    display: inline-block;
+    margin-left: -100px;
+  }
+  #map {
+    position: absolute;
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: -110px;
+  }
+  #mapa{
+    width: 600px;
+    height: 550px;
+  }
+  #header {
+    font-size: 40px;
+    font-weight: bold;
+    top: 20px;
+    text-align: center;
+  }
+  .bandera{
+    width: 50px;
+    height: 40px;
+    padding-left: 20px;
+  }
+  .legend {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 330px;
+    font-size: 11px;
+    color: #000;
+  }
+  
+  .node {
+    cursor: pointer;
+  }
+  
+  .node circle {
+    cursor: pointer;
+    fill: rgb(175,13,13);
+    stroke: rgb(175, 13, 13);
+    stroke-width: 1.5px;
+  }
+  
+  .node text {
+    font-size: 14px;
+    fill: rgb(0, 0, 0);
+  }
+  
+  path.link {
+    fill: none;
+    stroke: #000;
+    stroke-width: 1px;
+  }
